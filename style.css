@@ -1,0 +1,247 @@
+body{
+    background-color: lavender;
+}
+*
+{
+    margin: 0%;
+}
+#card
+{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left
+{
+  position: relative;
+  top:0.3rem;
+  left: 0.6rem;
+}
+#right
+{
+    display: flex;
+ margin-right: 0.6rem;
+ 
+}
+button{
+    background: red ;
+    color: white;
+    border-radius: 5px;
+  font-size:1rem;
+  display: flex;
+  text-align: center;
+  width: 80px;
+  border: none;
+  outline:none;
+   height:25px;
+   margin-top: 0.3rem;
+}
+#icons{
+    margin-right:1rem;
+   
+
+}
+.box{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    width: 350px;
+    height: 210px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient( to right, rgba(207, 194, 209, 0.142), rgba(203, 182, 206, 0.142));
+    cursor: pointer;
+    transition: 0.3px;
+}
+
+.border2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 110px;
+   height: 110px;
+   border-radius: 50%;
+   background: rgba(211, 187, 219, 0.507);
+ 
+
+}
+.border2 span{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(213, 199, 213);
+}
+
+.border-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    width: 350px;
+    height: 210px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient( to right, rgba(200, 186, 193, 0.378), rgba(180, 185, 215, 0.142));
+}
+
+.border2-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+   width: 110px;
+   height: 110px;
+   border-radius: 50%;
+   background: rgba(212, 192, 208, 0.507);
+  
+
+}
+.border2-size span{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(204, 185, 201);
+}
+
+.border-size1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    width: 350px;
+    height: 210px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient( to right, rgba(230, 230, 230, 0.489), rgba(204, 181, 192, 0.142));
+}
+
+.border3-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+   width: 110px;
+   height: 110px;
+   border-radius: 50%;
+   background: rgba(218, 196, 208, 0.495);
+  
+
+}
+.border3-size span{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(234, 220, 229);
+
+}
+.border-size2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0.1rem;
+    width: 350px;
+    height: 210px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient( to right, rgba(209, 221, 224, 0.489), rgba(186, 214, 219, 0.142));
+}
+
+.border4-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+   width: 110px;
+   height: 110px;
+   border-radius: 50%;
+   background: rgba(161, 212, 212, 0.774);
+  
+}
+.border4-size span{
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(121, 133, 134, 0.87);
+
+}
+
+.border-size3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    width: 350px;
+    height: 210px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient( to right, rgba(153, 163, 177, 0.489), rgba(193, 179, 203, 0.174));
+}
+
+.border5-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+   width: 110px;
+   height: 110px;
+   border-radius: 50%;
+   background: rgba(177, 183, 199, 0.32);
+   
+}
+.border5-size span{
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(172, 176, 195, 0.87);
+}
+.border-size4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem;
+    width: 350px;
+    height: 210px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    background: linear-gradient( to right, rgba(197, 188, 196, 0.525), rgba(189, 159, 183, 0.466));
+}
+
+.border6-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+   width: 110px;
+   height: 110px;
+   border-radius: 50%;
+   background: rgba(186, 151, 175, 0.32);
+  
+}
+.border6-size span{
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(160, 160, 188, 0.87);
+}
+.mic{
+    position: relative;
+    top: 1.5rem;
+    padding: 0.2rem;
+    background-color: rgba(14, 14, 14, 0.374);
+    color: white;
+    border-radius: 0.3rem;
+    text-align: center;
+}
